@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">IMBd</string>
+    <string name="about_author">About author</string>
+    <string name="my_film_database">Watched films</string>
+    <string name="toolbar_action_edit">Edit</string>
+    <string name="toolbar_action_mark_as_watched">Mark as watched</string>
+    <string name="toolbar_action_delete">Delete</string>
+    <string name="films_to_watch">To watch</string>
+    <string name="film_statistics">My statistics</string>
+    <string name="polish_description">Polish language</string>
+    <string name="english_description">English language</string>
+    <string name="deutsch_description">Deutsch language</string>
+    <string name="add_film_fab_description">Add new film</string>
+    <string name="form_film_title">Title*</string>
+    <string name="form_film_type">Type</string>
+    <string name="form_film_rating">Rating*</string>
+    <string name="form_film_director">Director</string>
+    <string name="form_film_duration">Duration* (minutes)</string>
+    <string name="form_film_notes">Notes</string>
+    <string name="form_film_released_date">Release date</string>
+    <string name="form_film_watched">Watched?</string>
+    <string name="form_film_save_button">Save</string>
+    <string name="form_title_hint" translatable="false">Mamma mia</string>
+    <string name="form_type_hint" translatable="false">Musical</string>
+    <string name="form_director_hint" translatable="false">Phyllida Lloyd</string>
+    <string name="form_duration_hint" translatable="false">90</string>
+    <string name="form_notes_hint">Music is bad</string>
+    <string name="form_release_date_hint" translatable="false">2008</string>
+    <string name="fieldRequired">This field is required</string>
+    <string name="formFillRating">PLEASE RATE ME!</string>
+    <string name="formRequiredFields">* Required fields</string>
+    <string name="statistics_time_spent_TextView">Time spent watching movies: </string>
+    <string name="statistics_hours_spent_TextView">That makes: </string>
+    <string name="statistics_summary">Stop wasting your time</string>
+    <string name="about_version">Version: 1.0.0</string>
+    <string name="about_author_details">Author: Tomasz Ruśniak</string>
+    <string name="successfullySavedObject">Success!</string>
+    <string name="addFilmHeader">Add new film</string>
+    <string name="editFilmHeader">Edit film</string>
+    <string name="single_film_type_text_view">Type:&#160;</string>
+    <string name="single_film_director_text_view">Director:&#160;</string>
+    <string name="single_film_notes_header">My notes:</string>
+</resources>

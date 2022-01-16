@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_author">Über den Autor</string>
+    <string name="my_film_database">Gesehene Filme</string>
+    <string name="films_to_watch">Obejrzyj pózniej</string>
+    <string name="film_statistics">Meine Statistiken</string>
+    <string name="english_description">Englisch</string>
+    <string name="polish_description">Polnische Sprache</string>
+    <string name="deutsch_description">Deutsch</string>
+    <string name="toolbar_action_edit">Bearbeiten</string>
+    <string name="toolbar_action_mark_as_watched">Als beobachtet markieren</string>
+    <string name="toolbar_action_delete">Löschen</string>
+    <string name="add_film_fab_description">Füge ein neues Video hinzu</string>
+    <string name="form_film_title">Titel*</string>
+    <string name="form_film_type">Filmgenre</string>
+    <string name="form_film_rating">Bewertung</string>
+    <string name="form_film_director">Direktor</string>
+    <string name="form_film_duration">Dauer*</string>
+    <string name="form_film_notes">Eigene Gedanken</string>
+    <string name="form_film_released_date">Herstellungsdatum</string>
+    <string name="form_film_watched">Schaute?</string>
+    <string name="form_film_save_button">Speichern</string>
+    <string name="form_notes_hint">Musik ist schlecht</string>
+    <string name="fieldRequired">Dieses Feld ist erforderlich</string>
+    <string name="formFillRating">Bewerte mich!</string>
+    <string name="formRequiredFields">* Benötigte Felder</string>
+    <string name="statistics_time_spent_TextView">Zeit, die mit dem Ansehen von Filmen verbracht wird</string>
+    <string name="statistics_hours_spent_TextView">Was gibt</string>
+    <string name="statistics_summary">Hören Sie auf, Ihre Zeit zu verschwenden</string>
+    <string name="about_version">Version 1.0.0</string>
+    <string name="about_author_details">Autor: Tomasz Ruśniak</string>
+    <string name="successfullySavedObject">Erfolg!</string>
+    <string name="addFilmHeader">Neuen Film hinzufügen</string>
+    <string name="editFilmHeader">Film bearbeiten</string>
+    <string name="single_film_type_text_view">Typ:&#160;</string>
+    <string name="single_film_director_text_view">Direktor:&#160;</string>
+    <string name="single_film_notes_header">Meine Notizen:</string>
+</resources>

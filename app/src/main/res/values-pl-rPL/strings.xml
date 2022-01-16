@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_author">O autorze</string>
+    <string name="my_film_database">Obejrzane filmy</string>
+    <string name="films_to_watch">Do obejrzenia</string>
+    <string name="film_statistics">Moje statystyki</string>
+    <string name="polish_description">Język polski</string>
+    <string name="english_description">Język angielski</string>
+    <string name="deutsch_description">Język niemiecki</string>
+    <string name="form_film_title">Tytuł*</string>
+    <string name="form_film_type">Gatunek</string>
+    <string name="form_film_rating">Ocena*</string>
+    <string name="form_film_director">Reżyser</string>
+    <string name="form_film_notes">Własne przemyślenia</string>
+    <string name="form_film_released_date">Data produkcji</string>
+    <string name="form_film_watched">Obejrzany?</string>
+    <string name="toolbar_action_edit">Edytuj</string>
+    <string name="toolbar_action_mark_as_watched">Oznacz jako obejrzane</string>
+    <string name="toolbar_action_delete">Usuń</string>
+    <string name="add_film_fab_description">Dodaj nowy film</string>
+    <string name="form_film_duration">Czas trwania*</string>
+    <string name="form_film_save_button">Zapisz</string>
+    <string name="form_notes_hint">Słaba muzyka</string>
+    <string name="fieldRequired">To pole jest wymagane</string>
+    <string name="formFillRating">Oceń mnie!</string>
+    <string name="formRequiredFields">* Wymagane pola</string>
+    <string name="statistics_time_spent_TextView">Czas spędzony na oglądaniu filmów</string>
+    <string name="statistics_hours_spent_TextView">Co daje</string>
+    <string name="statistics_summary">Przestań marnować czas</string>
+    <string name="about_version">Wersja 1.0.0</string>
+    <string name="about_author_details">Autor: Tomasz Ruśniak</string>
+    <string name="successfullySavedObject">Sukces!</string>
+    <string name="editFilmHeader">Edytuj film</string>
+    <string name="addFilmHeader">Dodaj nowy film</string>
+    <string name="single_film_type_text_view">Gatunek:&#160;</string>
+    <string name="single_film_director_text_view">Reżyser:&#160;</string>
+    <string name="single_film_notes_header">Moje notatki:</string>
+</resources>

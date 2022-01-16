@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edit_single_film"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="@string/toolbar_action_edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mark_as_watched"
+        android:title="@string/toolbar_action_mark_as_watched"/>
+    <item
+        android:id="@+id/delete_item"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/toolbar_action_delete"/>
+</menu>

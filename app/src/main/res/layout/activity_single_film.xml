@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleFilm">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/singleFilmImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_logo" />
+
+        <TextView
+            android:id="@+id/singleFilmTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/singleFilmImageView"
+            android:layout_marginVertical="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/linLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_below="@+id/singleFilmTitleTextView">
+
+            <ImageView
+                android:id="@+id/singleFilmCalendarIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:background="@drawable/ic_baseline_calendar_today_24" />
+
+            <TextView
+                android:id="@+id/singleFilmYearTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_below="@+id/singleFilmTitleTextView"
+            android:layout_toEndOf="@+id/linLayout1">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_baseline_access_time_24" />
+
+            <TextView
+                android:id="@+id/singleFilmDurationTextView"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/singleFilmTypeIndicatorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/single_film_type_text_view"
+            android:textSize="18sp"
+            android:layout_below="@+id/linLayout1"/>
+
+        <TextView
+            android:id="@+id/singleFilmTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linLayout1"
+            android:textSize="18sp"
+            android:layout_toEndOf="@+id/singleFilmTypeIndicatorTextView"/>
+
+        <TextView
+            android:id="@+id/singleFilmDirectorIndicatorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:layout_below="@+id/singleFilmTypeIndicatorTextView"
+            android:text="@string/single_film_director_text_view"/>
+        <TextView
+            android:id="@+id/singleFilmDirectorTextView"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/singleFilmTypeIndicatorTextView"
+            android:layout_toEndOf="@+id/singleFilmDirectorIndicatorTextView"/>
+
+        <TextView
+            android:id="@+id/singleFilmNotesHeaderTextView"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/singleFilmDirectorTextView"
+            android:text="@string/single_film_notes_header"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/singleFilmNotesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_below="@id/singleFilmNotesHeaderTextView"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/singleFilmRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+    </RelativeLayout>
+</RelativeLayout>
